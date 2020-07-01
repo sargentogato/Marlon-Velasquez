@@ -1,0 +1,175 @@
+@media screen and (max-width: 322px) {
+  .header__title,
+  .header__title {
+    text-align: center;
+  }
+}
+
+header {
+  flex-basis: 100%;
+  min-height: 100vh;
+  background-image: url("../img/Marlon-Velasquez-header1.jpg");
+  -moz-background-image: url("../img/Marlon-Velasquez-header1.jpg");
+  -webkit-background-image: url("../img/Marlon-Velasquez-header1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 5s;
+  -webkit-transition: 5s;
+  -moz-transition: 5s;
+
+  animation-name: slide;
+  -moz-animation-name: slide;
+  -webkit-animation-name: slide;
+
+  animation-direction: alternate-reverse;
+  -moz-animation-direction: alternate-reverse;
+  -webkit-animation-direction: alternate-reverse;
+
+  animation-duration: var(--header__slide-time-lapse);
+  -webkit-animation-duration: var(--header__slide-time-lapse);
+  -moz-animation-duration: var(--header__slide-time-lapse);
+
+  animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+
+  animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+
+  animation-play-state: running;
+  -moz-animation-play-state: running;
+  -webkit-animation-play-state: running;
+
+  animation-timing-function: ease-in-out;
+  -moz-animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: ease-in-out;
+}
+
+/*
+  * Efect background header
+  */
+
+@keyframes slide {
+  0% {
+    background-image: url("../img/Marlon-Velasquez-header2.jpg");
+  }
+  25% {
+    background-image: url("../img/Marlon-Velasquez-Ireland.JPG");
+  }
+  50% {
+    background-image: url("../img/Marlon-Velasquez-header3.jpg");
+  }
+}
+@-moz-keyframes slide {
+  0% {
+    background-image: url("../img/Marlon-Velasquez-header2.jpg");
+  }
+  25% {
+    background-image: url("../img/Marlon-Velasquez-Ireland.JPG");
+  }
+  50% {
+    background-image: url("../img/Marlon-Velasquez-header3.jpg");
+  }
+}
+@-webkit-keyframes slide {
+  0% {
+    background-image: url("../img/Marlon-Velasquez-header2.jpg");
+  }
+  25% {
+    background-image: url("../img/Marlon-Velasquez-Ireland.JPG");
+  }
+  50% {
+    background-image: url("../img/Marlon-Velasquez-header3.jpg");
+  }
+}
+
+/******header__overlay and header__info*/
+.header__overlay {
+  position: relative;
+  background: url(http://s14.directupload.net/images/111129/44ga9qid.png);
+  background-position: center;
+  width: 100%;
+  min-height: 95vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header__infoProfile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__imageProfile {
+  width: var(--header__image-profile-size);
+  height: var(--header__image-profile-size);
+  border-radius: var(--header__image-border-radius);
+}
+
+.header__title {
+  color: var(--header__title-color);
+  font-family: var(--titles__font-family);
+  font-weight: var(--header__font-weight);
+}
+
+.header__subtitle {
+  color: var(--header__subtitle-color);
+  text-align: center;
+}
+
+/*-- header__button--*/
+.header__btn {
+  background-color: transparent;
+  border-style: none;
+  width: 40px;
+  height: 40px;
+  font-size: 40px;
+  line-height: 40px;
+  animation: bounce 2s infinite ease-in-out;
+}
+
+.header__btn-icon {
+  color: white;
+  padding: 20px 10px;
+  border: 1px solid;
+  border-radius: 20px;
+  font-size: 15px;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  60%,
+  100% {
+    -ms-transform: translateY(0);
+  }
+  0%,
+  20%,
+  60%,
+  100% {
+    -o-transform: translateY(0);
+  }
+  0%,
+  20%,
+  60%,
+  100% {
+    -moz-transform: translateY(0);
+  }
+  0%,
+  20%,
+  60%,
+  100% {
+    -webkit-transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-20px);
+  }
+  80% {
+    -webkit-transform: translateY(-10px);
+  }
+}
