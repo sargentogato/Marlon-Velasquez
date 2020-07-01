@@ -52,7 +52,15 @@ li {
   --header__subtitle-font-size: calc(0.8em + 1vw);
   --header__slide-time-lapse: 30s;
 
-  /*Resume*/
+  /*Section general style*/
+  --section__title-font-size: 2em;
+  --section__margin-top: 5em;
+  --section__margin-bottom: 2em;
+
+  /*992px*/
+  --section__margin-top-large: 10em;
+
+  /*Section Resume*/
   --resume__title-font-size: 26px;
   --resume__title-font-wiight: 400;
   --resume__title-font-color: #222222;
@@ -72,8 +80,5 @@ li {
   --resume__place-font-weight: 400;
   --resume__place-margin-bottom: 20px;
 
-  --resume__section-openClassRoom: 25px;
-
-  /* --section-margin-top: calc(15em + 1vh);
-  --section-margin-bottom: calc(1em + 1vh); */
+  --resume__section-openClassRoom: 35px;
 }

@@ -5,7 +5,9 @@
 
 /***===> Section Resume - Section Projects - Section This website - Section Manuals <===***/
 section {
-  width: 100%;
+  flex-basis: 100%;
+  margin-top: var(--section__margin-top);
+  margin-bottom: var(--section__margin-bottom);
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -14,6 +16,7 @@ section {
 
 .section__title {
   text-align: center;
+  margin-bottom: var(--section__margin-bottom);
 }
 
 @media (min-width: 576px) {
@@ -31,6 +34,12 @@ section {
 @media (min-width: 992px) {
   section {
     max-width: 960px;
+    margin-top: var(--section__margin-top-large);
+  }
+
+  section h2 {
+    font-size: 32px;
+    text-transform: uppercase;
   }
 }
 

@@ -57,24 +57,6 @@ section h2 {
 }
 
 /*Section Grid-box for projects and manuals*/
-.grid-box {
-  display: grid;
-  width: 100%;
-  grid-gap: 2em;
-  background-color: red;
-  grid-template-columns: repeat(1, auto);
-  justify-content: center;
-}
-
-.grid-box img {
-  width: 100%;
-  height: auto;
-}
-
-img {
-  width: 100%;
-  height: auto;
-}
 
 /**********Resume***********/
 .resume ul {
@@ -109,39 +91,7 @@ li {
 }
 
 /*********This web site was done*********/
-.this-website {
-  width: 100%;
-  height: auto;
-  background-color: rgba(247, 247, 247, 0.5);
-  box-shadow: inset 0px 0px 10px -5px rgb(0, 0, 0);
-}
 
-.this-website-box {
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: repeat(4, 1fr);
-  margin-top: 2em;
-}
 /*****************************Footer**************************/
-footer {
-  background-color: orange;
-  position: sticky;
-}
 
 /***************************************************************Media Queries************************************************/
-
-@media screen and (min-width: 768px) {
-  /*Section Grid-box for projects and manuals*/
-  .grid-box {
-    grid-template-columns: repeat(2, auto);
-  }
-
-  /* This web site was done */
-} /*End media querie 768px*/
-
-@media screen and (min-width: 992px) {
-  /*Section Grid-box for projects and manuals*/
-  .grid-box {
-    grid-template-columns: repeat(3, auto);
-  }
-} /*End media querie 992px*/
