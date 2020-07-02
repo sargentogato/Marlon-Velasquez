@@ -1,0 +1,10 @@
+/*************Section__box*/
+
+.section__box .zoomIn {
+  transition: 0.5s ease-in-out;
+  transform: scale(1.2);
+}
+.section__box .zoomOut {
+  transition: 1s ease-in-out;
+  transform: scale(1);
+}
