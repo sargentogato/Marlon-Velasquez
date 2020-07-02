@@ -65,15 +65,12 @@
   }
 
   .section__resume-openClassRoom {
-    margin-top: var(--resume__section-openClassRoom);
+    margin-top: var(--resume__section-Front-end-Developer);
   }
 }
 
 @media (min-width: 1200px) {
   .section__resume-sociology {
     padding-bottom: 0 !important;
-  }
-  .section__resume-openClassRoom {
-    margin-top: var(--resume__section-openClassRoom);
   }
 }
