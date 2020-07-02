@@ -1,6 +1,46 @@
 footer {
-  height: 100px;
-  margin-top: 1em;
+  height: 10em;
+  text-align: center;
+  margin-top: 0.5em;
   background-color: orange;
   position: sticky;
+  font-family: var(--title__font-family);
+  font-weight: 600;
+}
+
+.footer__autor {
+  font-size: var(--footer__item-font-size);
+  padding-top: 3em;
+}
+
+.footer__autor img {
+  width: 20px;
+  height: 20px;
+}
+
+.footer__email {
+  font-size: var(--footer__item-font-size);
+}
+
+/* .footer--icon-box {
+  padding-top: 1em;
+} */
+
+.footer--icon-box__item:nth-child(1n) {
+  padding-right: 0.5em;
+}
+
+.footer--icon-box__item .fa-github {
+  font-size: var(--footer__icons-font-size);
+  color: black;
+}
+
+.footer--icon-box__item .fa-gitlab {
+  font-size: var(--footer__icons-font-size);
+  color: rgb(202, 17, 17);
+}
+
+.footer--icon-box__item .fa-codepen {
+  font-size: 24px;
+  color: black;
 }
