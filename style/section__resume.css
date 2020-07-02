@@ -55,8 +55,8 @@
   font-family: var(--general__font-family);
 }
 
-.fa-gitlab {
-  color: burlywood;
+.section__resume-list .fa-gitlab {
+  color: orange;
 }
 
 @media (min-width: 992px) {
