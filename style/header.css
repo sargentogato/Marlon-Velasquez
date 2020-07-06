@@ -8,15 +8,15 @@
 header {
   flex-basis: 100%;
   min-height: 100vh;
-  background-image: url("../img/Marlon-Velasquez-header1.jpg");
-  -moz-background-image: url("../img/Marlon-Velasquez-header1.jpg");
-  -webkit-background-image: url("../img/Marlon-Velasquez-header1.jpg");
+  background-image: url("../img/header/Marlon-Velasquez-header1.jpg");
+  /* -moz-background-image: url("../img/header/Marlon-Velasquez-header1.jpg");
+  -webkit-background-image: url("../img/header/Marlon-Velasquez-header1.jpg"); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   transition: 5s;
-  -webkit-transition: 5s;
   -moz-transition: 5s;
+  -webkit-transition: 5s;
 
   animation-name: slide;
   -moz-animation-name: slide;
@@ -27,8 +27,8 @@ header {
   -webkit-animation-direction: alternate-reverse;
 
   animation-duration: var(--header__slide-time-lapse);
-  -webkit-animation-duration: var(--header__slide-time-lapse);
   -moz-animation-duration: var(--header__slide-time-lapse);
+  -webkit-animation-duration: var(--header__slide-time-lapse);
 
   animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
@@ -53,35 +53,55 @@ header {
 
 @keyframes slide {
   0% {
-    background-image: url("../img/Marlon-Velasquez-header2.jpg");
+    background-image: url("../img/header/Marlon-Velasquez-Ireland6.JPG");
+  }
+  10% {
+    background-image: url("../img/header/Marlon-Velasquez-header5.jpg");
   }
   25% {
-    background-image: url("../img/Marlon-Velasquez-Ireland.JPG");
+    background-image: url("../img/header/Marlon-Velasquez-header4.jpg");
   }
   50% {
-    background-image: url("../img/Marlon-Velasquez-header3.jpg");
+    background-image: url("../img/header/Marlon-Velasquez-header3.jpg");
+  }
+  75% {
+    background-image: url("../img/header/Marlon-Velasquez-header2.jpg");
   }
 }
+
 @-moz-keyframes slide {
   0% {
-    background-image: url("../img/Marlon-Velasquez-header2.jpg");
+    background-image: url("../img/header/Marlon-Velasquez-Ireland6.JPG");
+  }
+  10% {
+    background-image: url("../img/header/Marlon-Velasquez-header5.jpg");
   }
   25% {
-    background-image: url("../img/Marlon-Velasquez-Ireland.JPG");
+    background-image: url("../img/header/Marlon-Velasquez-header4.jpg");
   }
   50% {
-    background-image: url("../img/Marlon-Velasquez-header3.jpg");
+    background-image: url("../img/header/Marlon-Velasquez-header3.jpg");
+  }
+  75% {
+    background-image: url("../img/header/Marlon-Velasquez-header2.jpg");
   }
 }
+
 @-webkit-keyframes slide {
   0% {
-    background-image: url("../img/Marlon-Velasquez-header2.jpg");
+    background-image: url("../img/header/Marlon-Velasquez-Ireland6.JPG");
+  }
+  10% {
+    background-image: url("../img/header/Marlon-Velasquez-header5.jpg");
   }
   25% {
-    background-image: url("../img/Marlon-Velasquez-Ireland.JPG");
+    background-image: url("../img/header/Marlon-Velasquez-header4.jpg");
   }
   50% {
-    background-image: url("../img/Marlon-Velasquez-header3.jpg");
+    background-image: url("../img/header/Marlon-Velasquez-header3.jpg");
+  }
+  75% {
+    background-image: url("../img/header/Marlon-Velasquez-header2.jpg");
   }
 }
 

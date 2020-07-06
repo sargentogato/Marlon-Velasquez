@@ -30,6 +30,7 @@ li {
 :root {
   --main__color: white;
   --general__font-family: lato;
+  --general__font-weight: 700;
   --titles__font-family: "Open Sans";
   --subtitles__font-family: lato;
 
@@ -37,8 +38,9 @@ li {
   --menu__background: rgba(0, 0, 0, 0.2);
   --menu__font-size: 1.2em;
   --menu__font-weight: bold;
-  --menu__items-color: white;
-  --menu__items-color-hover: #ffc53e;
+  --menu__items-color: #ffef00;
+  --menu__items-color-hover: white;
+  --menu__items-color-line-hover: #ffef00;
   --menu__background-color-hover: rgba(255, 0, 0, 0.1);
 
   /*Header*/

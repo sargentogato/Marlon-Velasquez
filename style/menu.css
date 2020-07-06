@@ -61,7 +61,7 @@ nav {
     display: block;
     width: 0;
     height: 3px;
-    background-color: var(--menu__items-color-hover);
+    background-color: var(--menu__items-color-line-hover);
 
     position: relative;
     left: 0;

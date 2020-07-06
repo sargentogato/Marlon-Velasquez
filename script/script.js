@@ -8,43 +8,43 @@
  */
 
 document.addEventListener("mouseover", (event) => {
-  let element = event.target.parentElement.id;
+  let domElement = event.target.parentElement.id;
 
-  switch (element) {
+  switch (domElement) {
     case "boardGame":
-      addClass(element);
+      addClass(domElement, "https://www.youtube.com/");
       break;
 
     case "tetris":
-      addClass(element);
+      addClass(domElement, "https://www.youtube.com/watch?v=sQqjY6E-iaE");
       break;
 
     case "crazyQuote":
-      addClass(element);
+      addClass(domElement);
       break;
 
     case "js":
-      addClass(element);
+      addClass(domElement);
       break;
 
     case "css":
-      addClass(element);
+      addClass(domElement);
       break;
 
     case "html":
-      addClass(element);
+      addClass(domElement);
       break;
 
     case "git":
-      addClass(element);
+      addClass(domElement);
       break;
 
     case "linux":
-      addClass(element);
+      addClass(domElement);
       break;
 
     case "adobexd":
-      addClass(element);
+      addClass(domElement);
       break;
 
     default:
@@ -52,18 +52,20 @@ document.addEventListener("mouseover", (event) => {
   }
 });
 
-function addClass(element) {
-  let getElement = document.getElementById(`${element}`);
+function addClass(domElement, link) {
+  let getElement = document.getElementById(`${domElement}`);
   getElement.classList.remove("zoomOut");
   getElement.classList.add("zoomIn");
 
   getElement.addEventListener("mouseleave", (event) => {
-    console.log(typeof element);
-    console.log(typeof event.target.id);
-    if (`${element} ` !== `${event.target.id}`) {
+    if (`${domElement} ` !== `${event.target.id}`) {
       getElement.classList.remove("zoomIn");
       getElement.classList.add("zoomOut");
-      console.log("ajaaaa", event.target.id);
     }
+  });
+
+  $(`#${domElement}`).click(function () {
+    window.open(link, "_blank");
+    stopPropagation();
   });
 }
