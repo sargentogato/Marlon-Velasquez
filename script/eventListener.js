@@ -44,56 +44,62 @@ document.addEventListener("mouseover", (event) => {
       break;
 
     case "flexbox":
-      addClass(domElement);
+      addClass(
+        domElement,
+        "https://1drv.ms/b/s!AuDwzFWCb33QgrZ2ANAr9dB4jNGKgw"
+      );
       break;
 
     case "grid":
-      addClass(domElement);
+      addClass(
+        domElement,
+        "https://1drv.ms/b/s!AuDwzFWCb33QgrZ3_8ePGi5v6A2QGQ"
+      );
       break;
 
     case "html":
-      addClass(domElement);
+      addClass(
+        domElement,
+        "https://1drv.ms/b/s!AuDwzFWCb33QgrZ5hyB_K5pmpvfpvg"
+      );
       break;
 
     case "git":
-      addClass(domElement);
+      addClass(
+        domElement,
+        "https://1drv.ms/u/s!AuDwzFWCb33QgrZ6S-2pxUnrgoyQqw?e=y1AGlY"
+      );
       break;
 
     case "linux":
-      addClass(domElement);
+      addClass(
+        domElement,
+        "https://1drv.ms/b/s!AuDwzFWCb33QgrcBt2ScDJGbd-z_Kw?e=tdbukp"
+      );
       break;
 
     case "cli":
-      addClass(domElement);
+      addClass(
+        domElement,
+        "https://1drv.ms/x/s!AuDwzFWCb33QgrZ-JXPR5iHRccVIRA?e=j2EabM"
+      );
       break;
 
     case "vscode":
-      addClass(domElement);
+      addClass(
+        domElement,
+        "https://1drv.ms/b/s!AuDwzFWCb33QgrcDkk_sgui_0d7aZA?e=wgewBr"
+      );
       break;
 
     case "adobexd":
-      addClass(domElement);
+      addClass(
+        domElement,
+        "https://1drv.ms/u/s!AuDwzFWCb33QgrcFbSjDzWh59zgmdQ?e=IjU0Ky"
+      );
       break;
 
     default:
       break;
   }
 });
-
-function addClass(domElement, link) {
-  let getElement = document.getElementById(`${domElement}`);
-  getElement.classList.remove("zoomOut");
-  getElement.classList.add("zoomIn");
-
-  getElement.addEventListener("mouseleave", (event) => {
-    if (`${domElement} ` !== `${event.target.id}`) {
-      getElement.classList.remove("zoomIn");
-      getElement.classList.add("zoomOut");
-    }
-  });
-
-  $(`#${domElement}`).click(function () {
-    window.open(link, "_blank");
-    stopPropagation();
-  });
-}
