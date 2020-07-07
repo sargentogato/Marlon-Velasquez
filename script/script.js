@@ -12,22 +12,39 @@ document.addEventListener("mouseover", (event) => {
 
   switch (domElement) {
     case "boardGame":
-      addClass(domElement, "https://www.youtube.com/");
+      addClass(
+        domElement,
+        "https://sargentogato.github.io/turn-based-game-in-javaScript/"
+      );
       break;
 
     case "tetris":
-      addClass(domElement, "https://www.youtube.com/watch?v=sQqjY6E-iaE");
+      addClass(domElement, "https://sargentogato.github.io/Tetris-sg/");
       break;
 
     case "crazyQuote":
-      addClass(domElement);
+      addClass(
+        domElement,
+        "https://sargentogato.github.io/crazyquotegenerator/"
+      );
       break;
 
     case "js":
-      addClass(domElement);
+      addClass(
+        domElement,
+        "https://1drv.ms/x/s!AuDwzFWCb33QgrZtIVvj3SoU3cNlRg?e=TSTNrO"
+      );
       break;
 
     case "css":
+      addClass(domElement);
+      break;
+
+    case "flexbox":
+      addClass(domElement);
+      break;
+
+    case "grid":
       addClass(domElement);
       break;
 
@@ -40,6 +57,14 @@ document.addEventListener("mouseover", (event) => {
       break;
 
     case "linux":
+      addClass(domElement);
+      break;
+
+    case "cli":
+      addClass(domElement);
+      break;
+
+    case "vscode":
       addClass(domElement);
       break;
 
