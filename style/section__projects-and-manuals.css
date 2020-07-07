@@ -2,7 +2,6 @@
   display: grid;
   width: 100%;
   grid-gap: 2em;
-  /* background-color: red; */
   grid-template-columns: repeat(1, auto);
   justify-content: center;
   cursor: pointer;
