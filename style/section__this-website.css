@@ -17,6 +17,15 @@
 .section__this-website--box-wireframe-text,
 .section__this-website--box-mockup-text {
   margin-bottom: 1em;
+  font-family: var(--general__font-family);
+}
+
+.section__this-website--box-wireframe-text h1 {
+  text-align: center;
+}
+
+.section__this-website--box-mockup-text h1 {
+  text-align: center;
 }
 
 @media (min-width: 768px) {
