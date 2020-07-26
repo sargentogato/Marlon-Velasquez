@@ -20,6 +20,18 @@ section {
   margin-bottom: var(--section__margin-bottom);
 }
 
+.section__title-resume-paragraph {
+  text-align: left;
+}
+
+.section__title-project-paragraph {
+  text-align: center;
+}
+
+.section__title-manuals-paragraph {
+  text-align: center;
+}
+
 @media (min-width: 576px) {
   section {
     max-width: 540px;
