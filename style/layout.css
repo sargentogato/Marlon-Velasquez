@@ -14,6 +14,10 @@ section {
   margin-left: auto;
 }
 
+.section__info-this-website {
+  /* margin-bottom: -15em; */
+}
+
 .section__title {
   font-family: var(--titles__font-family);
   text-align: center;
@@ -30,6 +34,17 @@ section {
 
 .section__title-manuals-paragraph {
   text-align: center;
+}
+
+.section__info-this-website {
+  text-align: center;
+}
+
+.section__title-manuals-paragraph-designed {
+  text-align: center;
+  margin-top: 2em;
+  font-size: 0.8em;
+  font-weight: 600;
 }
 
 @media (min-width: 576px) {
