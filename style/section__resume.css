@@ -64,6 +64,10 @@
   font-family: var(--general__font-family);
 }
 
+.section__resume-skills {
+  columns: 2;
+}
+
 .section__resume-list .fa-gitlab {
   color: orange;
 }
@@ -72,10 +76,10 @@
   .section__resume-sociology {
     padding-bottom: 0 !important;
   }
-
+  /* 
   .section__resume-openClassRoom {
     margin-top: var(--resume__section-Front-end-Developer);
-  }
+  } */
 }
 
 @media (min-width: 1200px) {
