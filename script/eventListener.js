@@ -39,21 +39,21 @@ document.addEventListener("mouseover", (event) => {
     case "css":
       addClass(
         domElement,
-        "https://1drv.ms/b/s!AuDwzFWCb33QgrZz_dI81pzf7VHPzA"
+        "https://1drv.ms/b/s!AuDwzFWCb33QgrhHTvdSpkZX_mPAZg"
       );
       break;
 
     case "flexbox":
       addClass(
         domElement,
-        "https://1drv.ms/b/s!AuDwzFWCb33QgrZ2ANAr9dB4jNGKgw"
+        "https://1drv.ms/b/s!AuDwzFWCb33QgrZ2oXo3CEd7baoXaA"
       );
       break;
 
     case "grid":
       addClass(
         domElement,
-        "https://1drv.ms/b/s!AuDwzFWCb33QgrZ3_8ePGi5v6A2QGQ"
+        "https://1drv.ms/b/s!AuDwzFWCb33QgrZ3VyRc-Nx1bmZbJw"
       );
       break;
 
