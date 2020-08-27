@@ -1,12 +1,3 @@
-/**
- * Estoy escuchando a todo el DOM
- * En el primer listener, capturo el id del elemento escuchado, el
- * cual es el que ha sido asignado en el html. Luego con el switch
- * llamo a la función addClass que agrega y quita la clase al
- * elemento que recibe cuando ha sido llamada. Esa función recibe
- * el id del elemento.
- */
-
 document.addEventListener("mouseover", (event) => {
   let domElement = event.target.parentElement.id;
 
