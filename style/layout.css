@@ -14,10 +14,6 @@ section {
   margin-left: auto;
 }
 
-.section__info-this-website {
-  /* margin-bottom: -15em; */
-}
-
 .section__title {
   font-family: var(--titles__font-family);
   text-align: center;
