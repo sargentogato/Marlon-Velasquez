@@ -4,7 +4,6 @@ let listenedSections = elementToListen.length
 for (const element of elementToListen) {
   
   element.addEventListener("mouseover", (event) => {
-    console.log("entra")
     let domElement = event.target.parentElement.id;
   
     switch (domElement) {
