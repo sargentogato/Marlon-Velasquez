@@ -8,9 +8,9 @@
 header {
   flex-basis: 100%;
   min-height: 100vh;
-  background-image: url("../img/header/Marlon-Velasquez-header1.jpg");
-  -moz-background-image: url("../img/header/Marlon-Velasquez-header1.jpg");
-  -webkit-background-image: url("../img/header/Marlon-Velasquez-header1.jpg");
+  background-image: url("../img/header/Marlon-Velasquez-header-mobile.jpg");
+  -moz-background-image: url("../img/header/Marlon-Velasquez-header-mobile.jpg");
+  -webkit-background-image: url("../img/header/Marlon-Velasquez-header-mobile.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -102,5 +102,11 @@ header {
   }
   80% {
     -webkit-transform: translateY(-10px);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  header{
+    background-image: url("../img/header/Marlon-Velasquez-header-desktop.jpg");
   }
 }
