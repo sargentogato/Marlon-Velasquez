@@ -5,6 +5,7 @@ for (const element of elementToListen) {
   
   element.addEventListener("mouseover", (event) => {
     let domElement = event.target.parentElement.id;
+    console.log(domElement)
   
     switch (domElement) {
       case "boardGame":
