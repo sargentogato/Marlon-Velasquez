@@ -80,10 +80,9 @@ li {
 
   --resume__place-font-color: rgb(155, 155, 155);
   --resume__place-font-weight: 400;
-  --resume__place-margin-bottom: 20px;
+  --resume__place-margin-bottom: 10px;
 
-  /* --resume__section-Front-end-Developer: 50px; */
-
+  
   --footer__items-font-size: 0.8em;
   --footer__icons-font-size: 1.5em;
 }
