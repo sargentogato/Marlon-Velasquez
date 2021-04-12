@@ -1,7 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-size: 16px;
 }
 
@@ -82,7 +81,6 @@ li {
   --resume__place-font-weight: 400;
   --resume__place-margin-bottom: 10px;
 
-  
   --footer__items-font-size: 0.8em;
   --footer__icons-font-size: 1.5em;
 }
