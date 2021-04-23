@@ -11,8 +11,7 @@
 }
 
 /**************Section Project********/
-.project__BoardGame::after {
-  content: "JavaScript(OOP) - HTML5(Canvas) - CSS3";
+[class^="project"]::after {
   display: block;
   width: 0;
   height: 0;
@@ -24,7 +23,7 @@
   z-index: 999;
 }
 
-.project__BoardGame:hover::after {
+[class^="project"]:hover::after {
   width: 100%;
   height: 30%;
   padding-top: 7%;
@@ -33,52 +32,24 @@
   font-weight: var(--general__font-weight);
   text-align: center;
   z-index: 999;
+}
+
+.project__testing::after {
+  content: "JavaScript(OOP), testing, Cypress, Cli(gitlab)";
+}
+
+.project__numbersTraining::after {
+  content: "JavaScript, CSS(flex), HTML, Cypress(testing)";
+}
+
+.project__BoardGame::after {
+  content: "JavaScript(OOP) - HTML5(Canvas) - CSS3";
 }
 
 .project__Tetris::after {
   content: "JavaScript - HTML5(Canvas) - CSS3";
-  display: block;
-  width: 0;
-  height: 0;
-  top: 35%;
-  color: transparent;
-  background-color: rgb(255, 0, 0, 0.5);
-  transition: all 1000ms;
-  position: absolute;
-  z-index: 999;
-}
-
-.project__Tetris:hover::after {
-  width: 100%;
-  height: 30%;
-  padding-top: 7%;
-  overflow-wrap: break-word;
-  color: var(--main__color);
-  font-weight: var(--general__font-weight);
-  text-align: center;
-  z-index: 999;
 }
 
 .project__CrazyQuote::after {
   content: "JavaScript - HTML5 - CSS3";
-  display: block;
-  width: 0;
-  height: 0;
-  top: 35%;
-  color: transparent;
-  background-color: rgb(255, 0, 0, 0.5);
-  transition: all 1000ms;
-  position: absolute;
-  z-index: 999;
-}
-
-.project__CrazyQuote:hover::after {
-  width: 100%;
-  height: 30%;
-  padding-top: 7%;
-  overflow-wrap: break-word;
-  color: var(--main__color);
-  font-weight: var(--general__font-weight);
-  text-align: center;
-  z-index: 999;
 }
