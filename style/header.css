@@ -19,8 +19,7 @@ header {
 /******header__overlay and header__info*/
 .header__overlay {
   position: relative;
-  background-color: rgba(0, 0, 0, 0.5); /* Ajusta el color y la opacidad del overlay */
-  backdrop-filter: brightness(70%); 
+  backdrop-filter: brightness(90%); 
   background-position: center;
   width: 100%;
   min-height: 95vh;
